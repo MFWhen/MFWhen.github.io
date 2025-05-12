@@ -9,9 +9,9 @@
     <nav>
       <ul>
         <li><router-link to="/">Home</router-link></li>
-        <li><router-link to="/clubs">Our Clubs</router-link></li>
-        <li><router-link to="/member-login">Member Login</router-link></li>
-        <li><router-link to="/admin-login">Admin Login</router-link></li>
+        <li><router-link to="old html\clubs.html">Our Clubs</router-link></li>
+        <li><router-link to="old html\member-login.html">Member Login</router-link></li>
+        <li><router-link to="old html\admin-login.html">Admin Login</router-link></li>
       </ul>
     </nav>
   </header>

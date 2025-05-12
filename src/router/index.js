@@ -1,11 +1,11 @@
 import { createRouter, createWebHistory } from 'vue-router'
 
-import AdminDashboard from '../views/AdminDashboard.vue'
-import AdminLogin from '../views/AdminLogin.vue'
-import Clubs from '../views/Clubs.vue'
-import CampusClub from '../views/CampusClub.vue'
-import CampusClubManagement from '../views/CampusClubManagement.vue'
-import MoreClubs from '../views/MoreClubs.vue'
+import AdminDashboard from '../views/AdminDashboard.vue';
+import AdminLogin from '../views/AdminLogin.vue';
+import Clubs from '../views/Clubs.vue';
+import CampusClub from '../views/CampusClub.vue';
+import CampusClubManagement from '../views/CampusClubManagement.vue';
+import MoreClubs from '../views/MoreClubs.vue';
 
 const routes = [
  
@@ -40,6 +40,8 @@ const routes = [
     component: MoreClubs
   }
 ]
+
+console.log('Registered Routes:', routes); 
 
 const router = createRouter({
   history: createWebHistory(),
