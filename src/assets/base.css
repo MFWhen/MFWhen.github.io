@@ -22,20 +22,26 @@
 }
 
 html, body {
-  margin: 0;
+ margin: 0;
   padding: 0;
   width: 100%;
   height: 100%;
+  overflow-x: hidden; 
   background-color: white;
 }
 
 #app {
   min-height: 100vh;
+  width: 100%;
   display: flex;
   flex-direction: column;
+  max-width: none;
+  margin: 0;
+  padding: 0;
+  width: 100%;
 }
 
-/* semantic color variables for this project */
+
 :root {
   --color-background: var(--vt-c-white);
   --color-background-soft: var(--vt-c-white-soft);

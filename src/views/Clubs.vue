@@ -1,6 +1,6 @@
 <template>
+  <div class="Clubs">
     <v-app>
-      <!-- Navigation Drawer (Sidebar) -->
       <v-navigation-drawer v-model="drawer" app>
         <v-list dense nav>
           <v-list-item
@@ -20,7 +20,7 @@
         </v-list>
       </v-navigation-drawer>
   
-      <!-- App Bar -->
+    
       <v-app-bar app color="primary" dark>
         <v-app-bar-nav-icon @click.stop="drawer = !drawer"></v-app-bar-nav-icon>
         <v-toolbar-title>SMU Club Management</v-toolbar-title>
@@ -50,10 +50,10 @@
         </v-menu>
       </v-app-bar>
   
-      <!-- Main Content -->
+    
       <v-main>
         <v-container fluid>
-          <!-- Welcome Section -->
+          
           <v-row>
             <v-col cols="12">
               <h1 class="text-h4 font-weight-bold">Welcome back, {{ username }}!</h1>
@@ -61,7 +61,7 @@
             </v-col>
           </v-row>
   
-          <!-- My Clubs Section -->
+      
           <v-row>
             <v-col cols="12">
               <div class="d-flex justify-space-between align-center mb-4">
@@ -99,7 +99,7 @@
             </v-col>
           </v-row>
   
-          <!-- Upcoming Events Section -->
+         
           <v-row class="mt-8">
             <v-col cols="12">
               <div class="d-flex justify-space-between align-center mb-4">
@@ -142,12 +142,13 @@
           </v-row>
         </v-container>
       </v-main>
-    </v-app>
+      </v-app>
+      </div>
   </template>
   
   <script>
   export default {
-    name: 'ClubsPage',
+    name: 'Clubs',
     data() {
       return {
         drawer: null,

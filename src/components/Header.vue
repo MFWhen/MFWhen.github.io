@@ -1,7 +1,7 @@
 <template>
   <header>
     <div class="logo-container">
-      <img src="C:\Users\hyper\OneDrive\Desktop\ISS296\anything-is-possible\src\assets\medtech_logo-f.png" alt="Medtech Logo" />
+      <img src="@/assets/medtech_logo-f.png" alt="Medtech Logo" />
       <div class="logo-text">
         <h2>SMU Connect</h2>
       </div>

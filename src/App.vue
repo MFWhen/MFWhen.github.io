@@ -45,6 +45,7 @@ footer {
   width: 100%; 
   margin: 0; 
   padding: 0; 
+  flex-shrink: 0;
 }
 </style>
 

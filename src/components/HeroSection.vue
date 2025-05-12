@@ -3,7 +3,6 @@
     <img src="@/assets/smu.png" alt="Campus Building" />
     <div class="hero-content">
       <h1>SMU Connect</h1>
-      <button class="join-btn">Join a Club</button>
     </div>
   </section>
 </template>

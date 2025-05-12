@@ -8,10 +8,11 @@ import CampusClubManagement from '../views/CampusClubManagement.vue'
 import MoreClubs from '../views/MoreClubs.vue'
 
 const routes = [
+ 
   {
-    path: '/',
+    path: '/clubs',
     name: 'Clubs',
-    component: Clubs
+    component: Clubs,
   },
   {
     path: '/admin-login',
